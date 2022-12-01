@@ -42,7 +42,6 @@ const roles = ['Les paradoxes', 'Exemple réel', 'Comment on peut voyager', 'Con
 export const Slice = () => {
   return (
     <Fragment>
-      <tbody>
         <Meta title={title} prefix="Projects" description={description} />
         <ProjectContainer className={styles.slice}>
           <ProjectBackground
@@ -362,7 +361,6 @@ export const Slice = () => {
           </ProjectSection>
         </ProjectContainer>
         <Footer />
-      </tbody>
     </Fragment>
   );
 };
