@@ -1,10 +1,10 @@
 {
-  "name": "portfolio",
+  "name": "Fr_PRESONTAION",
   "version": "1.0.0",
-  "homepage": "https://hamishw.com",
-  "description": "Portfolio site for SAMER GASSOUMA",
-  "repository": "https://github.com/HamishMW/portfolio.git",
-  "author": "SAMER GASSOUMA <hello@hamishw.com>",
+  "homepage": "https://github.com/Samer-Gassouma",
+  "description": "Fr_PRESONTAION site ",
+  "repository": "https://github.com/Samer-Gassouma/Time_Travel",
+  "author": "SAMER GASSOUMA <samer.samm12@gmail.com>",
   "devDependencies": {
     "@mapbox/rehype-prism": "^0.8.0",
     "@storybook/addon-a11y": "^6.5.10",

@@ -3,11 +3,6 @@
   "name": "Design Portfolio of SAMER GASSOUMA",
   "icons": [
     {
-      "src": "favicon.png",
-      "sizes": "64x64",
-      "type": "image/png"
-    },
-    {
       "src": "icon-256.png",
       "sizes": "256x256",
       "type": "image/png"
