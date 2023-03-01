@@ -1,5 +1,3 @@
-import { Icon } from 'components/Icon';
-import { Monogram } from 'components/Monogram';
 import { useTheme } from 'components/ThemeProvider';
 import { tokens } from 'components/ThemeProvider/theme';
 import { Transition } from 'components/Transition';
@@ -11,7 +9,7 @@ import { cssProps, media, msToNum, numToMs } from 'utils/style';
 import { NavToggle } from './NavToggle';
 import styles from './Navbar.module.css';
 import { ThemeToggle } from './ThemeToggle';
-import { navLinks, socialLinks } from './navData';
+import { navLinks } from './navData';
 
 export const Navbar = () => {
   const [current, setCurrent] = useState();

@@ -25,8 +25,6 @@ const ProfileText = ({ visible, titleId }) => (
 );
 
 export const Profile = ({ id, visible, sectionRef }) => {
-  const [focused, setFocused] = useState(false);
-
   return (
     <Section className={styles.profile} id={id} ref={sectionRef} data-visible={visible}>
       <h1>notre équipe:</h1>

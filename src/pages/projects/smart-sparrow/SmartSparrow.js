@@ -157,11 +157,11 @@ export const SmartSparrow = () => {
                   <ProjectSectionText>
                     Einstein a également déclaré que notre univers a une limite de vitesse
                     : rien ne peut voyager plus vite que la vitesse de la lumière (186 000
-                    miles par seconde). Qu'est-ce que cela signifie pour le voyage dans le
+                    miles par seconde). Qu est-ce que cela signifie pour le voyage dans le
                     temps ? Eh bien, selon cette théorie, plus vous voyagez vite, plus le
                     temps est lent. Les scientifiques ont fait quelques expériences pour
-                    montrer que c'est vrai. Exemple : Einstein qui a pris le "E" dans "E =
-                    mc²" et a expliqué son effet sur "m" dans un grand corps comme une
+                    montrer que c est vrai. Exemple : Einstein qui a pris le E dans E =
+                    mc² et a expliqué son effet sur m dans un grand corps comme une
                     étoile. Toutes les petites erreurs de la théorie de Newton ont
                     disparu.
                   </ProjectSectionText>
@@ -193,15 +193,15 @@ export const SmartSparrow = () => {
               <ProjectSectionText>
                 Selon Stephen Hawking, le voyage dans le temps est possible, et pas
                 seulement comme on pourrait le penser. Le voyage dans le temps en arrière
-                n'est pas pris en charge par les théories de Hawking, car une nouvelle
+                n est pas pris en charge par les théories de Hawking, car une nouvelle
                 matière (un nouveau vous) devrait être créée - une existant dans le passé
                 et une dans le présent, voyageant dans le temps. Exemple : Le 29 juin
                 2009, était un dimanche, Hawking était assis dans son fauteuil roulant
-                lors d'un cocktail au Gonville & Caius Collège de Cambridge, sous une
-                banderole indiquant « Welcome Time Travellers ». Les invitations n'ont été
-                révélées qu'après la fête, donc seul l'hôte s'est présenté, bien qu'il
-                n'ait fourni aucune preuve spécifique qu'il n'était pas lui-même un
-                voyageur temporel.
+                lors d un cocktail au Gonville & Caius Collège de Cambridge, sous une
+                banderole indiquant « Welcome Time Travellers ». Les invitations n ont été
+                révélées qu après la fête, donc seul l hôte s est présenté, bien qu il n
+                ait fourni aucune preuve spécifique qu il n était pas lui-même un voyageur
+                temporel.
               </ProjectSectionText>
             </ProjectTextRow>
             <Image
@@ -222,12 +222,12 @@ export const SmartSparrow = () => {
                 <ProjectSectionText>
                   Le Dr Michio Kaku est professeur de physique théorique au City Collège
                   de New York, co-fondateur de la théorie des champs de cordes Théorie de
-                  Michio Kaku « Si la théorie quantique dit qu'un électron pourrait être à
+                  Michio Kaku « Si la théorie quantique dit qu un électron pourrait être à
                   deux endroits en même temps, alors pourquoi les gens ne peuvent-ils pas
-                  être aussi à deux endroits en même temps ? Et d'ailleurs, pourquoi
-                  l'univers ne peut-il pas être à deux endroits en même temps ? À ce
-                  stade, vous pouvez vous dire : "C'est bizarre". Eh bien, habituez-vous.
-                  Ça s'appelle de la physique !"
+                  être aussi à deux endroits en même temps ? Et d ailleurs, pourquoi l
+                  univers ne peut-il pas être à deux endroits en même temps ? À ce stade,
+                  vous pouvez vous dire : C est bizarre. Eh bien, habituez-vous. Ça s
+                  appelle de la physique !
                 </ProjectSectionText>
               </ProjectTextRow>
             </ProjectSectionContent>

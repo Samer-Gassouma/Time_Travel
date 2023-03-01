@@ -9,7 +9,7 @@ export const Footer = ({ className }) => (
       <span className={styles.date}>{`© ${new Date().getFullYear()} .`}</span>
       <Link secondary className={styles.link} href="/" target="_self">
         Les gens comme nous, qui croyons en la physique, savent que la distinction entre
-        passé, présent et futur n'est qu'une illusion obstinément persistante
+        passé, présent et futur n est qu une illusion obstinément persistante
       </Link>
     </Text>
   </footer>
