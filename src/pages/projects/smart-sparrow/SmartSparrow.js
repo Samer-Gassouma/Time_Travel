@@ -1,32 +1,31 @@
-import backgroundSprLarge from 'assets/v882-kul-44.jpg';
-import backgroundSprPlaceholder from 'assets/v882-kul-44.jpg';
-import imageSprBackgroundVolcanismLarge from 'assets/spr-background-volcanism-large.jpg';
-import imageSprBackgroundVolcanismPlaceholder from 'assets/spr-background-volcanism-placeholder.jpg';
-import imageSprBackgroundVolcanism from 'assets/spr-background-volcanism.jpg';
-import backgroundSpr from 'assets/spr-background.jpg';
+import backgroundSprLarge from '../../../assets/v882-kul-44.jpg';
+import backgroundSprPlaceholder from '../../../assets/v882-kul-44.jpg';
+import imageSprBackgroundVolcanismLarge from '../../../assets/spr-background-volcanism-large.jpg';
+import imageSprBackgroundVolcanismPlaceholder from '../../../assets/spr-background-volcanism-placeholder.jpg';
+import imageSprBackgroundVolcanism from '../../../assets/spr-background-volcanism.jpg';
+import backgroundSpr from '../../../assets/spr-background.jpg';
 
-import imageSprLessonBuilderDarkLarge from 'assets/spr-lesson-builder-dark-large.jpg';
-import imageSprLessonBuilderDarkPlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-import imageSprLessonBuilderDark from 'assets/spr-lesson-builder-dark.jpg';
-import imageSprLessonBuilderLightLarge from 'assets/spr-lesson-builder-light-large.jpg';
-import imageSprLessonBuilderLightPlaceholder from 'assets/spr-lesson-builder-light-placeholder.jpg';
-import imageSprLessonBuilderLight from 'assets/spr-lesson-builder-light.jpg';
+import imageSprLessonBuilderDarkLarge from '../../../assets/spr-lesson-builder-dark-large.jpg';
+import imageSprLessonBuilderDarkPlaceholder from '../../../assets/spr-lesson-builder-dark-placeholder.jpg';
+import imageSprLessonBuilderDark from '../../../assets/spr-lesson-builder-dark.jpg';
+import imageSprLessonBuilderLightLarge from '../../../assets/spr-lesson-builder-light-large.jpg';
+import imageSprLessonBuilderLightPlaceholder from '../../../assets/spr-lesson-builder-light-placeholder.jpg';
+import imageSprLessonBuilderLight from '../../../assets/spr-lesson-builder-light.jpg';
 
-import imageSprStoryboarderDarkLarge from 'assets/img55.jpg';
-import imageSprStoryboarderDarkPlaceholder from 'assets/img55.jpg';
-import imageSprStoryboarderDark from 'assets/img55.jpg';
-import imageSprStoryboarderLightLarge from 'assets/img55.jpg';
-import imageSprStoryboarderLightPlaceholder from 'assets/img55.jpg';
-import imageSprStoryboarderLight from 'assets/img55.jpg';
+import imageSprStoryboarderDarkLarge from '../../../assets/img55.jpg';
+import imageSprStoryboarderDarkPlaceholder from '../../../assets/img55.jpg';
+import imageSprStoryboarderDark from '../../../assets/img55.jpg';
+import imageSprStoryboarderLightLarge from '../../../assets/img55.jpg';
+import imageSprStoryboarderLightPlaceholder from '../../../assets/img55.jpg';
+import imageSprStoryboarderLight from '../../../assets/img55.jpg';
 
-import MK from 'assets/Michio-Kaku.jpg';
-import stephImg from 'assets/img56.jpg';
+import MK from '../../../assets/Michio-Kaku.jpg';
+import stephImg from '../../../assets/img56.jpg';
 
-import { Image } from 'components/Image';
+import { Image } from '../../../components/Image';
 
-import { Meta } from 'components/Meta';
-import { ThemeProvider, useTheme } from 'components/ThemeProvider';
-import { useAppContext } from 'hooks';
+import { Meta } from '../../../components/Meta';
+import { ThemeProvider, useTheme } from '../../../components/ThemeProvider';
 import {
   ProjectBackground,
   ProjectContainer,
@@ -38,10 +37,10 @@ import {
   ProjectSectionHeading,
   ProjectSectionText,
   ProjectTextRow,
-} from 'layouts/Project';
+} from '../../../layouts/Project';
 import dynamic from 'next/dynamic';
 import { Fragment, useMemo } from 'react';
-import { media } from 'utils/style';
+import { media } from '../../../utils/style';
 import styles from './SmartSparrow.module.css';
 
 const Earth = dynamic(() => import('./Earth').then(mod => mod.Earth));
@@ -54,14 +53,8 @@ const roles = ['Introduction et définition ', 'Les theories', 'Les paradoxes'];
 
 export const SmartSparrow = () => {
   const { themeId } = useTheme();
-  const { dispatch } = useAppContext();
 
   const isDark = themeId === 'dark';
-  const themes = ['dark', 'light'];
-
-  const handleThemeChange = index => {
-    dispatch({ type: 'setTheme', value: themes[index] });
-  };
 
   return (
     <Fragment>

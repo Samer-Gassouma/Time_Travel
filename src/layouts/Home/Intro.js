@@ -1,21 +1,21 @@
-import ArrowDown from 'assets/arrow-down.svg';
-import { DecoderText } from 'components/DecoderText';
-import { Heading } from 'components/Heading';
-import { Section } from 'components/Section';
-import { useTheme } from 'components/ThemeProvider';
-import { tokens } from 'components/ThemeProvider/theme';
-import { Transition } from 'components/Transition';
-import { VisuallyHidden } from 'components/VisuallyHidden';
+import ArrowDown from '../../assets/arrow-down.svg';
+import { DecoderText } from '../../components/DecoderText';
+import { Heading } from '../../components/Heading';
+import { Section } from '../../components/Section';
+import { useTheme } from '../../components/ThemeProvider';
+import { tokens } from '../../components/ThemeProvider/theme';
+import { Transition } from '../../components/Transition';
+import { VisuallyHidden } from '../../components/VisuallyHidden';
 import { AnimatePresence } from 'framer-motion';
-import { useInterval, usePrevious, useScrollToHash } from 'hooks';
+import { useInterval, usePrevious, useScrollToHash } from '../../hooks';
 import dynamic from 'next/dynamic';
 import RouterLink from 'next/link';
 import { Fragment, useEffect, useState } from 'react';
-import { cssProps } from 'utils/style';
+import { cssProps } from '../../utils/style';
 import styles from './Intro.module.css';
 
 const DisplacementSphere = dynamic(() =>
-  import('layouts/Home/DisplacementSphere').then(mod => mod.DisplacementSphere)
+  import('./DisplacementSphere').then(mod => mod.DisplacementSphere)
 );
 
 export function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...rest }) {

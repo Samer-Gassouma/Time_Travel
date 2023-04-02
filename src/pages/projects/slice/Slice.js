@@ -1,16 +1,16 @@
-import sliceApp from 'assets/traveller-in-time4.jpg';
+import sliceApp from '../../../assets/traveller-in-time4.jpg';
 
-import sliceBackgroundLarge from 'assets/bg.jpg';
+import sliceBackgroundLarge from '../../../assets/bg.jpg';
 
-import sliceBackground from 'assets/bg.jpg';
-import sliceSidebarLayersLarge from 'assets/par.jpg';
-import sliceSidebarLayersPlaceholder from 'assets/par.jpg';
-import sliceSidebarLayers from 'assets/par.jpg';
-import { ThemeProvider } from 'components/ThemeProvider';
-import sliceSlides from 'assets/p15660455_b_h8_ac.jpg';
-import { Footer } from 'components/Footer';
-import { Image } from 'components/Image';
-import { Meta } from 'components/Meta';
+import sliceBackground from '../../../assets/bg.jpg';
+import sliceSidebarLayersLarge from '../../../assets/par.jpg';
+import sliceSidebarLayersPlaceholder from '../../../assets/par.jpg';
+import sliceSidebarLayers from '../../../assets/par.jpg';
+import { ThemeProvider } from '../../../components/ThemeProvider';
+import sliceSlides from '../../../assets/p15660455_b_h8_ac.jpg';
+import { Footer } from '../../../components/Footer';
+import { Image } from '../../../components/Image';
+import { Meta } from '../../../components/Meta';
 import {
   ProjectBackground,
   ProjectContainer,
@@ -22,18 +22,18 @@ import {
   ProjectSectionHeading,
   ProjectSectionText,
   ProjectTextRow,
-} from 'layouts/Project';
+} from '../../../layouts/Project';
 import dynamic from 'next/dynamic';
 import { Fragment, useMemo } from 'react';
-import { media } from 'utils/style';
+import { media } from '../../../utils/style';
 import styles from './Slice.module.css';
 const Earth = dynamic(() => import('../smart-sparrow/Earth').then(mod => mod.Earth));
 const EarthSection = dynamic(() =>
   import('../smart-sparrow/Earth').then(mod => mod.EarthSection)
 );
-import Imgh1 from 'assets/h1.jpg';
-import twa from 'assets/wfs.jpg';
-import Imgh2 from 'assets/fight.jpg';
+import Imgh1 from '../../../assets/h1.jpg';
+import twa from '../../../assets/wfs.jpg';
+import Imgh2 from '../../../assets/fight.jpg';
 const title = 'Les paradoxes';
 const description =
   'il faut dire que chaque théorie a ses propres paradoxes et surtout dans ce sujet, les paradoxes sont à tous les points de vue..';

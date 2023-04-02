@@ -1,7 +1,7 @@
-import { useTheme } from 'components/ThemeProvider';
-import { Transition } from 'components/Transition';
+import { useTheme } from '../../components/ThemeProvider';
+import { Transition } from '../../components/Transition';
 import { useReducedMotion, useSpring } from 'framer-motion';
-import { useInViewport, useWindowSize } from 'hooks';
+import { useInViewport, useWindowSize } from '../../hooks';
 import { startTransition, useEffect, useRef } from 'react';
 import {
   AmbientLight,
@@ -17,8 +17,8 @@ import {
   WebGLRenderer,
   sRGBEncoding,
 } from 'three';
-import { media, rgbToThreeColor } from 'utils/style';
-import { cleanRenderer, cleanScene, removeLights } from 'utils/three';
+import { media, rgbToThreeColor } from '../../utils/style';
+import { cleanRenderer, cleanScene, removeLights } from '../../utils/three';
 import styles from './DisplacementSphere.module.css';
 import fragShader from './displacementSphereFragment.glsl';
 import vertShader from './displacementSphereVertex.glsl';

@@ -1,5 +1,5 @@
-import iphone11 from 'assets/iphone-11.glb';
-import macbookPro from 'assets/untitled.glb';
+import iphone11 from '../../assets/iphone-11.glb';
+import macbookPro from '../../assets/untitled.glb';
 
 export const ModelAnimationType = {
   SpringUp: 'spring-up',

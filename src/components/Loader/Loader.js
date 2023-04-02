@@ -1,9 +1,9 @@
-import { Text } from 'components/Text';
-import { VisuallyHidden } from 'components/VisuallyHidden';
+import { Text } from '../Text';
+import { VisuallyHidden } from '../VisuallyHidden';
 import { useReducedMotion } from 'framer-motion';
-import { useHasMounted } from 'hooks';
+import { useHasMounted } from '../../hooks';
 import { createPortal } from 'react-dom';
-import { classes, cssProps } from 'utils/style';
+import { classes, cssProps } from '../../utils/style';
 import styles from './Loader.module.css';
 
 export const Loader = ({ className, style, size = 32, text = 'Loading...', ...rest }) => {

@@ -1,5 +1,5 @@
 import { animate, useReducedMotion, useSpring } from 'framer-motion';
-import { useInViewport } from 'hooks';
+import { useInViewport } from '../../hooks';
 import {
   createRef,
   startTransition,
@@ -28,15 +28,15 @@ import {
   sRGBEncoding,
 } from 'three';
 import { HorizontalBlurShader, VerticalBlurShader } from 'three-stdlib';
-import { resolveSrcFromSrcSet } from 'utils/image';
-import { classes, cssProps, numToMs } from 'utils/style';
+import { resolveSrcFromSrcSet } from '../../utils/image';
+import { classes, cssProps, numToMs } from '../../utils/style';
 import {
   cleanRenderer,
   cleanScene,
   modelLoader,
   removeLights,
   textureLoader,
-} from 'utils/three';
+} from '../../utils/three';
 import styles from './Model.module.css';
 import { ModelAnimationType } from './deviceModels';
 

@@ -1,28 +1,11 @@
-import YAS from 'assets/yas.jpg';
-import SAM from 'assets/sam.jpg';
-import KA from 'assets/ka.jpg';
+import YAS from '../../assets/yas.jpg';
+import SAM from '../../assets/sam.jpg';
+import KA from '../../assets/ka.jpg';
 
-import { DecoderText } from 'components/DecoderText';
-
-import { Heading } from 'components/Heading';
-import { Image } from 'components/Image';
-import { Section } from 'components/Section';
-import { Fragment, useState } from 'react';
-import { media } from 'utils/style';
+import { Image } from '../../components/Image';
+import { Section } from '../../components/Section';
+import { media } from '../../utils/style';
 import styles from './Profile.module.css';
-
-const ProfileText = ({ visible, titleId }) => (
-  <Fragment>
-    <Heading
-      className={styles.title}
-      data-visible={visible}
-      level={3}
-      id={titleId}
-    ></Heading>
-
-    <DecoderText text="notre équipe" start={visible} delay={500} />
-  </Fragment>
-);
 
 export const Profile = ({ id, visible, sectionRef }) => {
   return (

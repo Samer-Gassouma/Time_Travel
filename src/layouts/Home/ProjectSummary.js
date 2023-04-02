@@ -1,19 +1,19 @@
-import projectKatakana from 'assets/katakana-project.svg?url';
-import { Button } from 'components/Button';
-import { Divider } from 'components/Divider';
-import { Heading } from 'components/Heading';
-import { deviceModels } from 'components/Model/deviceModels';
-import { Section } from 'components/Section';
-import { Text } from 'components/Text';
-import { useTheme } from 'components/ThemeProvider';
-import { Transition } from 'components/Transition';
-import { useWindowSize } from 'hooks';
+import projectKatakana from '../../assets/katakana-project.svg?url';
+import { Button } from '../../components/Button';
+import { Divider } from '../../components/Divider';
+import { Heading } from '../../components/Heading';
+import { deviceModels } from '../../components/Model/deviceModels';
+import { Section } from '../../components/Section';
+import { Text } from '../../components/Text';
+import { useTheme } from '../../components/ThemeProvider';
+import { Transition } from '../../components/Transition';
+import { useWindowSize } from '../../hooks';
 import dynamic from 'next/dynamic';
 import { useState } from 'react';
-import { cssProps, media } from 'utils/style';
+import { cssProps, media } from '../../utils/style';
 import styles from './ProjectSummary.module.css';
 
-const Model = dynamic(() => import('components/Model').then(mod => mod.Model));
+const Model = dynamic(() => import('../../components/Model').then(mod => mod.Model));
 
 export const ProjectSummary = ({
   id,
